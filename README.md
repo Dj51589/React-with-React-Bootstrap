@@ -1,5 +1,29 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## How to Use React Bootstrap
+
+### Step 1: Install React Bootstrap
+Run: `npm install react-bootstrap bootstrap` in your project folder to install React-Bootstrap in Application.
+
+### Step 2: Include Style Sheet
+Include Bootstrap Style File in your index.html.It will add updated styles to your component.
+
+`<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous" /> `
+
+### Step 3: Include Component
+Import React-Bootstrap in your React Component file and use whatever Bootstrap Component you need.<br>
+For Eg: I am using Button, Navbar etc. component in my demo.
+
+`import { Button , Navbar, Nav , NavDropdown, DropdownButton, Dropdown } from 'react-bootstrap';`
+
+### Step 4: Start Using
+Use component as described in Component API. You can find here all bootstrap components.
+https://react-bootstrap.netlify.com/components/alerts
+
 ## Available Scripts
 
 In the project directory, you can run:
